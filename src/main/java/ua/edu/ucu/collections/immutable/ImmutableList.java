@@ -27,6 +27,5 @@ public interface ImmutableList {
 
     Object[] toArray(); //перетворює колекцію до масиву обєктів
 
-    @Override
     String toString(); //повертає рядок, де через кому відображаютсься елементи колекції
 }
